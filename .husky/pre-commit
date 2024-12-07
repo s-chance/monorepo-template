@@ -1,0 +1,3 @@
+echo "start biome check!"
+biome check --write --error-on-warnings --no-errors-on-unmatched --staged && git add .
+echo "biome check finish!"
