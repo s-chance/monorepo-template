@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "vite": "pnpm create vite",
+    "rsbuild": "pnpm create rsbuild",
+    "format": "biome format --write",
+    "lint": "biome lint --write",
+    "check": "biome check --write",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "husky": "^9.1.7"
+  }
+}
