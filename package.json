@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "monorepo powered by bun",
+  "scripts": {
+    "vite": "bun create vite",
+    "rsbuild": "bun create rsbuild",
+    "format": "biome format --write",
+    "lint": "biome lint --write",
+    "check": "biome check --write",
+    "prepare": "husky"
+  },
+  "workspaces": ["packages/*"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "husky": "^9.1.7"
+  }
+}
